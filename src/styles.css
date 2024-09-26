@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    
+        font-family: 'Poppins', sans-serif;
+}
+
+.all {
+    position: relative;
+    z-index: 10;  
+    top: 20%;
+  }
+.navbar {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+
+  }
+
+
+  .searchBar {
+   display: flex;
+   justify-content: center;
+    
+  }
+  .search_logo {
+    height: 30px;
+    width: 35px;
+    margin-left: 10px;
+    margin-top: 7px;
+    border-radius: 20%;
+    background-color: #f5f5f5; 
+    border: 2px solid #ddd; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; 
+  }
+  
+  .search_logo:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
+  }
+  .search_logo:active {
+    transform: scale(1.1); 
+   border-color: blue;        
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.5)
+  }
+  
+  .search_logo img {
+    height: 100%; 
+    width: auto; 
+  }
+  
+  .inputData {
+    
+    border-radius: 30px;       
+    border: 2px solid gray;    
+    justify-content: center;
+    padding: 10px 20px;        
+    width: 300px;              
+    font-size: 16px;           
+    outline: none;             
+    cursor: pointer;
+    transition: all 0.3s ease; 
+  }
+  
+  .inputData:focus {
+    border-color: blue;        
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.5);  
+  }
+  
+  
+  .inputData::placeholder {
+    color: #aaa;              
+  }
+
+  .city {
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    margin-top: 40px;      
+    font-size: 40px;   
+  }
+  
+  .logo {
+    margin-right: 10px;        
+  }
+
+ .details {
+    justify-content: center;  
+    align-items: center;     
+    text-align: center; 
+    margin-top: 20px;      
+    font-size: 30px;
+    font-weight: 500;
+    padding: 10px;
+}
+  
+.invalid_data{
+    display: flex;
+    gap: 10px;
+    font-size: 34px;
+    justify-content: center;
+    margin-top: 64px;
+    padding: 20px;
+}
+.extras{
+    font-size: 17px;
+    font-weight: 100;
+}
+.background {
+    transition: opacity 0.5s ease-in-out; 
+  }
